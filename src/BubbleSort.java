@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class BubbleSort {
 	public static void main (String[] args) {
 		// create numbers array
-		int [] numbers = {7,3,10,9,1,2};
+		int [] numbers = {7,3,10,9,1,2,-1};
 		boolean swapped = true; // set flag to true to begin first pass
 		int temp; // swap variable
 		
@@ -17,7 +17,7 @@ public class BubbleSort {
 					numbers[i+1] = temp;
 					swapped = true; // mark as swapped = work left to do
 				}
-			
+
 		}
 		
 		}
